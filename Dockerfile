@@ -1,6 +1,6 @@
 FROM php:7.1-fpm-alpine
 
-MAINTAINER Zaher Ghaibeh <z@zah.me>
+MAINTAINER Josh Lyford
 
 RUN apk update \
     && apk add  --no-cache git mysql-client curl libmcrypt libmcrypt-dev openssh-client icu-dev \
